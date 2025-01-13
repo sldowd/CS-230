@@ -2,6 +2,9 @@
 
 ```mermaid
 classDiagram
+class Driver {
+   +main() void
+}
 Vehicle <|-- TwoWheeled
 TwoWheeled <|-- Bicycle
 class Bicycle {
